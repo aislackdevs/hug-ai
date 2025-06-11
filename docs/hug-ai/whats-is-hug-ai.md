@@ -49,10 +49,4 @@ HUG AI is the result of years of experimenting with AI-assisted workflows combin
 - Product teams seeking speed without losing oversight.
 - Organizations with compliance, security, or governance requirements.
 
-## What's next?
 
-Continue exploring the project:
-
-- [About HUG AI](about.md)
-- [Methodology Overview](../methodology/overview.md)
-- [AI Agents Architecture](../agents/overview.md)

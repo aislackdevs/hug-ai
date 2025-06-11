@@ -1,6 +1,8 @@
 ---
 template: home.html
 title: Slackdevs - HUG AI
+hide:
+    - toc
 ---
 
 # HUG AI Development
@@ -26,15 +28,6 @@ Our methodology is built on the following core principles:
 - **Agile and Adaptive**: Flexible processes that adapt to different project sizes and contexts
 - **Context-Aware**: Ensuring AI tools have access to necessary context for optimal assistance
 - **Continuous Learning**: Systems that improve over time as they learn from human feedback
-
-## Getting Started
-
-To begin using this methodology in your projects:
-
-1. Explore the [Overview](methodology/overview.md) to understand the fundamental concepts
-2. Learn about the [Software Development Lifecycle](methodology/sdlc.md) in **HUG AI** projects
-3. Understand how to apply [Agile Practices](methodology/agile-practices.md) with AI tools
-4. Follow the detailed process guides for each phase of development
 
 ## Who Is This For?
 

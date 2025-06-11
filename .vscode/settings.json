@@ -1,0 +1,12 @@
+{
+  "files.exclude": {
+    ".cache/**": true,
+    ".idea": true,
+    ".venv": false,
+    "material": false,
+    "site": false,
+    "LICENSE.md": true,
+    "requirements.txt": false,
+    "docs/human-governed-ai-development-playbook.md": true
+  }
+}

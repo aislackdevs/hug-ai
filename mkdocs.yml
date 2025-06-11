@@ -169,11 +169,10 @@ nav:
 
   - HUG AI:
       - What is HUG AI: hug-ai/whats-is-hug-ai.md
-      - About: hug-ai/about.md
+      - Manifesto: hug-ai/manifesto.md
 
   - Methodology:
       - Methodology Overview: methodology/overview.md
-      - Manifesto: methodology/manifesto.md
       - SDLC: methodology/sdlc.md
       - Agile Practices: methodology/agile_practices.md
       - Governance & Compliance: methodology/governance.md

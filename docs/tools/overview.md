@@ -40,4 +40,4 @@ If you’ve built CLI wrappers, dashboards, or DevOps extensions—submit a PR!
 
 ---
 
-Back to: [Guides Overview](../guides/overview.md)
+
