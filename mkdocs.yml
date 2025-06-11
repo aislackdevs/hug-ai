@@ -1,0 +1,238 @@
+# Project information
+site_name: Slackdevs
+site_url: https://slackdevs.com
+site_author: Sebastian Larrauri
+site_description: >-
+  "We don’t automate developers — we multiply them."
+
+# Repository
+repo_name: aislackdevs/hug-ai
+repo_url: https://github.com/aislackdevs/hug-ai
+
+copyright: Copyright &copy; 2024 - 2025 Sebastian Larrauri - Creative Commons Atribución 4.0 Internacional (CC BY 4.0)
+docs_dir: docs
+# Configuration
+theme:
+  name: material
+  custom_dir: material/overrides
+  features:
+  # --- CONTENIDO ---
+  - content.code.annotate           # ✅ Permite anotar y numerar líneas de código
+  - content.code.copy               # ✅ Botón para copiar código
+  - content.code.select             # 🔒 Selección dentro de bloques de código (raro de usar)
+  # - content.action.edit           # 🔒 Botón para editar la página en GitHub
+  # - content.action.view           # 🔒 Botón para ver fuente en el repo
+  - content.footnote.tooltips       # 🔒 Convierte notas al pie en tooltips
+  - content.tabs.link             # 🔒 Tabs con enlaces individuales (si usás tabs complejas)
+  - content.tooltips                # ✅ Muestra tooltips para enlaces con título
+
+  # --- NAVEGACIÓN ---
+  - navigation.tabs                 # ✅ Tabs superiores (para separar secciones como AISDG / Agents)
+  # - navigation.tabs.sticky        # 🔒 Tabs siempre visibles al hacer scroll (no necesario aún)
+  - navigation.footer               # ✅ Enlaces prev/next al pie
+  - navigation.tracking             # ✅ Actualiza URL según sección visible
+  - navigation.indexes              # ✅ index.md como portada de subcarpetas
+  # - navigation.expand             # 🔒 Expande todo el menú (innecesario por ahora)
+  # - navigation.instant            # 🔒 Navegación instantánea sin recarga (incompatible con algunos scripts)
+  # - navigation.instant.prefetch   # 🔒 Precarga páginas al hacer hover (más útil en sitios grandes)
+  # - navigation.instant.progress   # 🔒 Barra de carga para navegación instantánea
+  # - navigation.prune              # 🔒 Oculta entradas muy profundas automáticamente
+  - navigation.sections           # 🔒 Agrupa el menú lateral por secciones (útil si hay cientos de páginas)
+
+  # --- BÚSQUEDA ---
+  - search.highlight                # ✅ Resalta palabras en los resultados
+  - search.suggest                  # ✅ Sugerencias mientras escribís
+  - search.share                    # ✅ Permite compartir búsqueda con URL
+
+  # --- TOC (Índice) ---
+  # - toc.integrate                   # ✅ Muestra tabla de contenidos dentro del contenido
+  # - toc.follow                    # 🔒 Hace que el índice siga tu scroll (no necesario si se integra)
+
+  palette:
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/link
+        name: Switch to light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/toggle-switch-off
+        name: Switch to system preference
+  font:
+    text: Roboto
+    code: Roboto Mono
+  favicon: assets/images/favicon.png
+  logo: assets/images/logo.svg
+
+# Plugins
+plugins:
+  - blog
+  - search:
+      separator: '[\s\u200b\-_,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
+  - minify:
+      minify_html: true
+  - social
+
+# Hooks
+hooks:
+  - material/overrides/hooks/shortcodes.py
+  - material/overrides/hooks/translations.py
+
+# Additional configuration
+extra:
+  status:
+    new: Recently added
+    deprecated: Deprecated
+  analytics:
+    provider: google
+    property: G-ZS9PLMC5TK
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/aislackdevs
+    - icon: fontawesome/brands/linkedin
+      link: https://linkedin.com/company/aislackdevs
+    - icon: fontawesome/brands/x-twitter
+      link: https://x.com/aislackdevs
+  # alternate:
+  #   - name: English
+  #     link: https://slackdevs.com
+  #     lang: en
+  #   - name: Castellano
+  #     link: https://slackdevs.com/es
+  #     lang: es
+
+# Extensions
+markdown_extensions:
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - toc:
+      permalink: true
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.magiclink:
+      normalize_issue_symbols: true
+      repo_url_shorthand: true
+      user: squidfunk
+      repo: mkdocs-material
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.snippets:
+      auto_append:
+        - includes/mkdocs.md
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+      combine_header_slug: true
+      slugify: !!python/object/apply:pymdownx.slugs.slugify
+        kwds:
+          case: lower
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+
+not_in_nav: |
+  docs/blog/draft/*.md
+
+# Page tree
+nav:
+  - Home: index.md
+
+  - HUG AI:
+      - What is HUG AI: hug-ai/whats-is-hug-ai.md
+      - About: hug-ai/about.md
+
+  - Methodology:
+      - Methodology Overview: methodology/overview.md
+      - Manifesto: methodology/manifesto.md
+      - SDLC: methodology/sdlc.md
+      - Agile Practices: methodology/agile_practices.md
+      - Governance & Compliance: methodology/governance.md
+      - Risks & Mitigation: methodology/risks.md
+
+  - Process:
+      - Process Overview: process/overview.md
+      - Planning: process/planning.md
+      - Design: process/design.md
+      - Implementation: process/implementation.md
+      - Testing: process/testing.md
+      - Deployment: process/deployment.md
+      - Maintenance: process/maintenance.md
+
+
+  - Agents:
+      - Agents Overview: agents/overview.md
+      - Architecture Agent: agents/architecture_agent.md
+      - Branch PR Manager Agent: agents/branch_pr_manager_agent.md
+      - Deployment Agent: agents/deployment_agent.md
+      - DevOps Agent: agents/devops_agent.md
+      - Documentation Writer Agent: agents/documentation_writer_agent.md
+      - Implementation Agent: agents/implementation_agent.md
+      - Integration Agent: agents/integration_agent.md
+      - Internal Reviewer Agent: agents/internal_reviewer_agent.md
+      - Maintenance Agent: agents/maintenance_agent.md
+      - Performance Agent: agents/performance_agent.md
+      - Prompt Refiner Agent: agents/prompt_refiner_agent.md
+      - Requirements Analyzer Agent: agents/requirements_analyzer_agent.md
+      - Retry Agent: agents/retry_agent.md
+      - Router Agent: agents/router_agent.md
+      - Security Agent: agents/security_agent.md
+      - Test Agent: agents/test_agent.md
+
+  - Practices:
+      - Practices Overview: practices/overview.md
+      - Code Quality: practices/code_quality.md
+      - Scalability: practices/scalability.md
+      - Documentation: practices/documentation.md
+      - Security: practices/security.md
+
+  - Guides:
+      - Guides Overview: guides/overview.md
+  
+  - Tools: 
+      - Tools Overview: tools/overview.md
+
+  # - Articles:
+  #     - Articles Overview: articles/overview.md
+  #     - Boost Productivity: articles/boost_productivity.md
+  #     - Role-Based Guides: articles/role_based_guides.md
+  #     - Scalable Strategies: articles/scalable_strategies.md
+  #     - Quickstart Template: articles/quickstart_template.md
+  #     - Style Guides: articles/style_guides.md
+  #     - Templates: articles/templates.md
+  #     - Agent Config: articles/agent_config.md
+
+  # - Case Studies:
+  #     - Case Studies Overview: case-studies/overview.md
+
+  # - Blog:
+  #     - Overview: blog/index.md

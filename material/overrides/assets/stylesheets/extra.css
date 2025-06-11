@@ -1,0 +1,6 @@
+:root {
+  --md-primary-fg-color: #f43f5e; /* Rose */
+}
+[data-md-color-scheme="slate"] {
+  --md-primary-fg-color: #f43f5e; /* Rose in dark too */
+}
