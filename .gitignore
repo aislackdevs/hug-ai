@@ -2,7 +2,3 @@
 site/
 .cache
 .idea/
-
-
-material/overrides/hooks/__pycache__/shortcodes.cpython-313.pyc
-material/overrides/hooks/__pycache__/translations.cpython-313.pyc
