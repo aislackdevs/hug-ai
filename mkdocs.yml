@@ -230,8 +230,13 @@ nav:
   #     - Templates: articles/templates.md
   #     - Agent Config: articles/agent_config.md
 
-  # - Case Studies:
-  #     - Case Studies Overview: case-studies/overview.md
-
+  - Case Studies:
+      - Case Studies Overview: case-studies/overview.md
+      - Enterprise Application Modernization: case-studies/enterprise-application-modernization.md
+      - Enterprise DevOps Transformation: case-studies/enterprise-devops-transformation.md
+      - Government System Integration: case-studies/government-system-integration.md
+      - Open Source Project Revitalization: case-studies/open-source-project-revitalization.md
+      - Startup Product Development: case-studies/startup-product-development.md
+      
   # - Blog:
   #     - Overview: blog/index.md
