@@ -1,6 +1,7 @@
 ---
 template: home.html
 title: Slackdevs - HUG AI
+description: Learn about the vision, purpose, and structure of HUG AI — a human-governed approach to AI-powered software development.
 hide:
     - toc
 ---
