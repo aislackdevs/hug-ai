@@ -1,96 +1,45 @@
 ---
-hide:
-  - navigation
-  - toc
----
-# SlackDevs Manifesto
-
-> Taming Artificial Intelligence
-
+title: HUG AI Manifesto
+description: Foundational principles and values of the Human-Governed AI Software Development methodology.
 ---
 
-## Our Mission
+# HUG AI Manifesto
 
-Transform the relationship between developers and artificial intelligence:
-We don’t want AI to replace humans.
-We want humans to enhance their experience, creativity, and knowledge by using AI as a conscious, ethical, and powerful tool.
+The **Human-Governed AI Software Development (HUG AI)** Manifesto defines the core values and principles guiding our methodology. It emphasizes collaboration, responsibility, and augmentation over replacement.
 
----
+## Core Beliefs
 
-## Our Principles
+- **AI should enhance, not replace, human judgment.**
+- **Developers remain accountable for quality, ethics, and outcomes.**
+- **Transparency and traceability are non-negotiable.**
+- **We value augmentation, not automation without oversight.**
+- **Continuous improvement applies to both humans and agents.**
 
-### 1. **AI Developer Experience First (AIDX)**
+## Guiding Principles
 
-AI should improve the developer’s life—not complicate it.
-We aim for workflows that are natural, predictable, fast, and focused.
+### 1. Human-in-the-Loop by Default
+Every decision made or suggested by AI must pass through human validation — especially in critical, ethical, or security-sensitive contexts.
 
-### 2. **AI Software Design (AISD)**
+### 2. Context-Aware Prompting
+AI outputs are only as reliable as their inputs. Structured prompts, context files, and shared knowledge bases must be maintained and versioned.
 
-We design software with the idea that AI is part of its lifecycle:
-From analysis to design, generation, and maintenance.
+### 3. Transparent Agent Chains
+Each agent’s action must be logged, auditable, and explainable. Chains of responsibility must be evident in both process and code.
 
-### 3. **Knowledge First**
+### 4. Role-Based Governance
+AI tasks should mirror human roles (e.g., reviewer, implementer) and report accordingly. Every output must be tied to accountable human reviewers.
 
-There’s no real growth without documentation, organization, and effective information retrieval.
-SlackDevs turns data chaos into structured, actionable knowledge.
+### 5. Evolvable Tooling
+The methodology should evolve as tools improve. Prompting patterns, evaluation strategies, and review processes must be adaptable and open to iteration.
 
-### 4. **Open Source & Community**
-
-SlackDevs is built on collaboration, respect for Open Source, and the spirit of sharing to evolve.
-We believe in the power of collective intelligence.
-
-### 5. **Simplicity and Modularity**
-
-SlackDevs is extensible, customizable, and evolutionary.
-Each module should stand alone—and also thrive in synergy.
-
-### 6. **Transparency and Ethics**
-
-Every human-AI interaction must be traceable, controllable, and reversible.
-AI doesn’t decide on its own.
-Humans always have the final say.
-
-### 7. **Resilience**
-
-SlackDevs is designed to fail, recover, and learn.
-We design for change, for evolution, for the unexpected.
-
----
-
-## Our Vision
-
-A future where human intelligence, augmented by AI,
-is not only more productive,
-but also more creative, more thoughtful, more powerful.
-
-A world where building software is more than writing lines of code—
-it’s about crafting living, flexible, intelligent ideas.
-
-SlackDevs is the first step to make that future not just possible,
-but inevitable.
-
----
+### 6. Open Standards and Knowledge Sharing
+AI-generated assets, patterns, and methods must be documented and, where possible, shared openly to foster a global community of responsible developers.
 
 ## Our Commitment
 
-* Build open, ethical, and human-centered platforms.
-* Respect the work of developers.
-* Continuously improve the creation experience.
-* Share our progress to empower others.
-* Stay true to the principle that guides us:
+We believe in a future where developers embrace AI as partners — not competitors — and where software is built faster, better, and more ethically because of that partnership.
 
-> "Tame AI to unleash true human power."
+The HUG AI Manifesto is a living document. As tools, challenges, and communities evolve, so will our shared understanding of responsible AI development.
 
 ---
 
-## Join Us
-
-SlackDevs isn’t just a tool.
-It’s a community.
-It’s a revolution.
-
-If you believe AI should empower, not replace,
-if you believe building is both art and science,
-if you believe knowledge should be free and powerful:
-
-**This is your place.**
