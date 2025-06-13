@@ -11,12 +11,23 @@ Each phase of the process includes clearly scoped roles for agents, checkpoints 
 
 ## Key Development Phases
 
-- **Planning**: Convert goals into requirements, risks, and scoped tasks
-- **Design**: Define architecture, components, and data flow
-- **Implementation**: Generate and review code collaboratively with agents
-- **Testing**: Ensure quality, performance, and security
-- **Deployment**: Automate safe and observable delivery
-- **Maintenance**: Keep systems healthy and continuously improved
+- **[Planning](planning.md)**: Convert goals into requirements, risks, and scoped tasks
+- **[Design](design.md)**: Define architecture, components, and data flow
+- **[Implementation](implementation.md)**: Generate and review code collaboratively with agents
+- **[Testing](testing.md)**: Ensure quality, performance, and security
+- **[Deployment](deployment.md)**: Automate safe and observable delivery
+- **[Maintenance](maintenance.md)**: Keep systems healthy and continuously improved
+
+### Phase Overview
+
+| Phase | Primary Focus | Key AI Agents | Success Criteria |
+|-------|---------------|---------------|------------------|
+| [Planning](planning.md) | Requirements gathering and project definition | Requirements Analyzer, Estimation Assistant | Clear requirements with >85% quality score |
+| [Design](design.md) | Architecture and system design | Architecture Agent, Design Validator | 100% requirement coverage in design |
+| [Implementation](implementation.md) | Code development and quality assurance | Implementation Agent, Code Analyzer | 30% faster development with quality gates |
+| [Testing](testing.md) | Quality validation and verification | Test Agent, Performance Analyzer | >90% test coverage with <5% defect leakage |
+| [Deployment](deployment.md) | Production delivery and monitoring | Deployment Agent, Risk Predictor | >98% deployment success rate |
+| [Maintenance](maintenance.md) | Operations and continuous improvement | Maintenance Agent, Anomaly Detector | >99.9% uptime with efficient operations |
 
 ## How It Works
 
