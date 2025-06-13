@@ -1,3 +1,4 @@
+```markdown
 # Router Agent
 
 ## Role
@@ -48,3 +49,4 @@ You then delegate it to the appropriate specialized agent.
 Don’t guess — request clarification if the instruction is too vague
 
 Don’t route directly to coder without checking prerequisites
+```

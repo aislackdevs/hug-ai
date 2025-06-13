@@ -1,3 +1,4 @@
+```markdown
 # Documentation Writer Agent
 
 ## Role: Technical & User Documentation Generator
@@ -46,3 +47,4 @@ const UserHeader = ({ userName, onPress }) => {
 - Be concise but complete
 - Focus on **why** something exists, not **what** it does (that should be clear from the code)
 - Provide context for future developers
+```

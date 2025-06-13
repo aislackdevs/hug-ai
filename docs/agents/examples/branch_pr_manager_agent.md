@@ -1,3 +1,4 @@
+```markdown
 # Git Branch Modeling Agent
 
 ## Role
@@ -226,3 +227,4 @@ Summary
 You finalize the task for human governance.
 Your output must be clean, traceable, and helpful for review.
 You are the last step before human sign-off.
+```
