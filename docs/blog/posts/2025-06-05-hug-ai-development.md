@@ -7,7 +7,7 @@ description: >
 categories:
   - Blog
 links:
-  - hug-ai/manifesto.md
+  - methodology/manifesto.md
 ---
 # The Path to HUG AI
 

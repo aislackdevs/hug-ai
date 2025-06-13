@@ -228,7 +228,7 @@ Each case study follows a consistent structure:
 ### **Implementation Support**
 
 **Planning Resources**
-- **[Methodology Overview](../hug-ai/overview.md)**: Core framework and principles
+- **[Methodology Overview](../methodology/overview.md)**: Core framework and principles
 - **[Implementation Guides](../guides/overview.md)**: Step-by-step implementation guidance
 - **[Best Practices](../best-practices/overview.md)**: Proven patterns and approaches
 

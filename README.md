@@ -61,7 +61,7 @@ mkdocs build
 
 ## 📖 Documentation Structure
 
-- **[HUG AI Overview](docs/hug-ai/whats-is-hug-ai.md)** - Introduction to the methodology
+- **[HUG AI Overview](docs/methodology/whats-is-hug-ai.md)** - Introduction to the methodology
 - **[Methodology](docs/methodology/)** - Core principles, manifesto, and SDLC guidance
 - **[Process](docs/process/)** - Detailed guides for each development phase
 - **[Agents](docs/agents/)** - Specialized AI agents for development tasks

@@ -53,7 +53,7 @@ mkdocs gh-deploy
 ### Content Organization
 The documentation follows a structured methodology approach:
 
-1. **HUG AI Core** (`docs/hug-ai/`) - Fundamental concepts and manifesto
+1. **HUG AI Core** (`docs/methodology/`) - Fundamental concepts and manifesto
 2. **Methodology** (`docs/methodology/`) - SDLC, governance, and practices  
 3. **Process** (`docs/process/`) - Phase-by-phase development guides
 4. **Agents** (`docs/agents/`) - Specialized AI agent configurations
