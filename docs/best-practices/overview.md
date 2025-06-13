@@ -149,7 +149,7 @@ Building scalable systems with AI-powered architecture and optimization:
 These best practices are designed to integrate seamlessly with:
 
 - **[HUG AI Development Flows](../hug-ai/flows.md)**: Practices embedded in development workflows
-- **[Methodology Framework](../methodology/overview.md)**: Aligned with overall methodology principles
+- **[Methodology Framework](../hug-ai/overview.md)**: Aligned with overall methodology principles
 - **[Agent Configuration](../tools/agents.md)**: AI agents trained on these best practices
 - **[Quality Assurance Tools](../tools/quality-assurance.md)**: Automated enforcement of practices
 

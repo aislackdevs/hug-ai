@@ -99,7 +99,7 @@ This section provides **practical implementation guides** for adopting Human-Gov
 ### **Foundation Knowledge**
 Before diving into implementation guides, ensure familiarity with:
 - **[HUG AI Overview](../hug-ai/overview.md)**: Core concepts and philosophy
-- **[Methodology Framework](../methodology/overview.md)**: Methodological foundation
+- **[Methodology Framework](../hug-ai/overview.md)**: Methodological foundation
 - **[Agent System](../agents/overview.md)**: Multi-agent architecture
 
 ### **Technical Implementation**
