@@ -242,9 +242,6 @@ nav:
       - Monitoring & Analytics: tools/monitoring-analytics.md
       - Deployment Tools: tools/deployment-tools.md
 
-  - Roadmap:
-      - Technology Roadmap: roadmap/overview.md
-
   - Case Studies:
       - Case Studies Overview: case-studies/overview.md
       - Enterprise Application Modernization: case-studies/enterprise-modernization.md
