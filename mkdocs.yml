@@ -171,14 +171,11 @@ nav:
       - Overview: hug-ai/overview.md
       - Manifesto: hug-ai/manifesto.md
       - Methodology: hug-ai/methodology.md
+      - Software Development Lifecycle: hug-ai/sdlc.md
+      - Agile AI Practices: hug-ai/agile-practices.md
+      - Governance & Compliance: hug-ai/governance.md
+      - Risk Management: hug-ai/risks.md
       - Development Flows: hug-ai/flows.md
-
-  - Methodology:
-      - Methodology Overview: methodology/overview.md
-      - Software Development Lifecycle: methodology/sdlc.md
-      - Agile AI Practices: methodology/agile_practices.md
-      - Governance & Compliance: methodology/governance.md
-      - Risk Management: methodology/risks.md
 
   - Development Process:
       - Process Overview: process/overview.md
@@ -192,22 +189,26 @@ nav:
 
   - Agents:
       - Agents Overview: agents/overview.md
-      - Architecture Agent: agents/architecture_agent.md
-      - Branch PR Manager Agent: agents/branch_pr_manager_agent.md
-      - Deployment Agent: agents/deployment_agent.md
-      - DevOps Agent: agents/devops_agent.md
-      - Documentation Writer Agent: agents/documentation_writer_agent.md
-      - Implementation Agent: agents/implementation_agent.md
-      - Integration Agent: agents/integration_agent.md
-      - Internal Reviewer Agent: agents/internal_reviewer_agent.md
-      - Maintenance Agent: agents/maintenance_agent.md
-      - Performance Agent: agents/performance_agent.md
-      - Prompt Refiner Agent: agents/prompt_refiner_agent.md
-      - Requirements Analyzer Agent: agents/requirements_analyzer_agent.md
-      - Retry Agent: agents/retry_agent.md
-      - Router Agent: agents/router_agent.md
-      - Security Agent: agents/security_agent.md
-      - Test Agent: agents/test_agent.md
+      - Examples & Use Cases: agents/examples/index.md
+      - Core Agents:
+          - Prompt Refiner Agent: agents/prompt_refiner_agent.md
+          - Requirements Analyzer Agent: agents/requirements_analyzer_agent.md
+          - Router Agent: agents/router_agent.md
+          - Architecture Agent: agents/architecture_agent.md
+          - Implementation Agent: agents/implementation_agent.md
+          - Test Agent: agents/test_agent.md
+      - Quality & Security Agents:
+          - Internal Reviewer Agent: agents/internal_reviewer_agent.md
+          - Security Agent: agents/security_agent.md
+          - Performance Agent: agents/performance_agent.md
+          - Documentation Writer Agent: agents/documentation_writer_agent.md
+      - Operations Agents:
+          - Branch PR Manager Agent: agents/branch_pr_manager_agent.md
+          - Integration Agent: agents/integration_agent.md
+          - DevOps Agent: agents/devops_agent.md
+          - Deployment Agent: agents/deployment_agent.md
+          - Maintenance Agent: agents/maintenance_agent.md
+          - Retry Agent: agents/retry_agent.md
 
   - Best Practices:
       - Practices Overview: best-practices/overview.md

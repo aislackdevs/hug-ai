@@ -5,8 +5,7 @@ description: Comprehensive introduction to Human-Governed AI Software Developmen
 
 # What is HUG AI?
 
-**HUG AI** stands for **Human-Governed AI Software Development**.  
-It is a comprehensive methodology designed to integrate artificial intelligence tools into software development workflows while maintaining human control over decisions, architecture, quality, security, and responsibility.
+**HUG AI** stands for **Human-Governed AI Software Development** — a comprehensive methodology designed to integrate artificial intelligence tools into software development workflows while maintaining human control over decisions, architecture, quality, security, and responsibility.
 
 ## Core Philosophy
 
@@ -217,3 +216,31 @@ npx @hugai/cli init --template enterprise
 HUG AI represents the future of software development: intelligent automation guided by human wisdom, delivering better software faster while maintaining the quality, security, and governance standards that matter most.
 
 *Ready to multiply your development team's capabilities? Let's get started.*
+
+
+
+## Framework Components
+
+The methodology consists of several interconnected components that work together to create a comprehensive AI-augmented development environment:
+
+### 📚 **Explore the Framework**
+1. **[HUG AI Manifesto](manifesto.md)**: Core principles and values
+2. **[Development Methodology](methodology.md)**: Complete framework overview
+3. **[Software Development Lifecycle](sdlc.md)**: AI-enhanced SDLC phases
+4. **[Agile Practices](agile-practices.md)**: AI-enhanced agile methodologies
+5. **[Governance & Compliance](governance.md)**: Oversight and compliance frameworks
+6. **[Risk Management](risks.md)**: Risk identification and mitigation strategies
+7. **[Development Flows](flows.md)**: Practical workflow implementations
+
+### 🛠️ **Practical Implementation**
+- **[Agent Documentation](../agents/overview.md)**: Specialized AI agents and their capabilities
+- **[Implementation Guides](../guides/overview.md)**: Step-by-step implementation guidance
+- **[Project Templates](../tools/templates.md)**: Ready-to-use project configurations
+- **[Best Practices](../best-practices/overview.md)**: Proven patterns and approaches
+- **[Case Studies](../case-studies/overview.md)**: Real-world implementation examples
+
+---
+
+The HUG AI Development Methodology provides a structured, proven approach to integrating AI into software development while maintaining the human judgment, oversight, and accountability essential for professional software delivery.
+
+*Ready to transform your development process? Choose your methodology component and begin your HUG AI journey.*
