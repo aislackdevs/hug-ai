@@ -1,6 +1,6 @@
 # Project information
-site_name: Slackdevs
-site_url: https://slackdevs.com
+site_name: Hug AI
+site_url: https://hugai.dev
 site_author: Sebastian Larrauri
 site_description: >-
   "We don’t automate developers — we multiply them."
@@ -167,15 +167,15 @@ not_in_nav: |
 nav:
   - Home: index.md
 
-  - HUG AI:
-      - Overview: hug-ai/overview.md
-      - Manifesto: hug-ai/manifesto.md
-      - Methodology: hug-ai/methodology.md
-      - Software Development Lifecycle: hug-ai/sdlc.md
-      - Agile AI Practices: hug-ai/agile-practices.md
-      - Governance & Compliance: hug-ai/governance.md
-      - Risk Management: hug-ai/risks.md
-      - Development Flows: hug-ai/flows.md
+  - Methodology:
+      - What is HUG AI: methodology/overview.md
+      - Manifesto: methodology/manifesto.md
+      - Methodology: methodology/methodology.md
+      - Software Development Lifecycle: methodology/sdlc.md
+      - Agile AI Practices: methodology/agile-practices.md
+      - Governance & Compliance: methodology/governance.md
+      - Risk Management: methodology/risks.md
+      - Development Flows: methodology/flows.md
 
   - Development Process:
       - Process Overview: process/overview.md
