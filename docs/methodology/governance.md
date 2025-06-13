@@ -1,11 +1,11 @@
 ---
-title: Governance & Compliance Framework
+title: Governance & Compliance
 description: Outlines the practices and policies that support responsible, enterprise-ready AI-assisted software development.
 ---
 
-# Governance & Compliance Framework
+# Governance & Compliance
 
-The **Governance & Compliance Framework** in HUG AI ensures that AI-assisted development meets organizational, legal, and ethical standards. It establishes controls, roles, and auditability mechanisms across the SDLC.
+The **Governance & Compliance** in HUG AI ensures that AI-assisted development meets organizational, legal, and ethical standards. It establishes controls, roles, and auditability mechanisms across the SDLC.
 
 ## Why Governance Matters
 
