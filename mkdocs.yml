@@ -102,13 +102,6 @@ extra:
       link: https://linkedin.com/company/aislackdevs
     - icon: fontawesome/brands/x-twitter
       link: https://x.com/aislackdevs
-  # alternate:
-  #   - name: English
-  #     link: https://slackdevs.com
-  #     lang: en
-  #   - name: Castellano
-  #     link: https://slackdevs.com/es
-  #     lang: es
 
 # Extensions
 markdown_extensions:
@@ -185,7 +178,6 @@ nav:
       - Testing Phase: process/testing.md
       - Deployment Phase: process/deployment.md
       - Maintenance Phase: process/maintenance.md
-
 
   - Agents:
       - Agents Overview: agents/overview.md

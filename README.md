@@ -114,7 +114,7 @@ Created by **SlackDevs**, a network of developers and engineers passionate about
 ## Support
 
 - **Repository**: [https://github.com/aislackdevs/hug-ai](https://github.com/aislackdevs/hug-ai)
-- **Website**: [https://slackdevs.com](https://slackdevs.com)
+- **Website**: [https://hugai.dev](https://hugai.dev)
 - **LinkedIn**: [https://linkedin.com/company/aislackdevs](https://linkedin.com/company/aislackdevs)
 - **Twitter/X**: [https://x.com/aislackdevs](https://x.com/aislackdevs)
 
