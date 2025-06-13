@@ -168,24 +168,26 @@ nav:
   - Home: index.md
 
   - HUG AI:
-      - What is HUG AI: hug-ai/whats-is-hug-ai.md
+      - Overview: hug-ai/overview.md
       - Manifesto: hug-ai/manifesto.md
+      - Methodology: hug-ai/methodology.md
+      - Development Flows: hug-ai/flows.md
 
   - Methodology:
       - Methodology Overview: methodology/overview.md
-      - SDLC: methodology/sdlc.md
-      - Agile Practices: methodology/agile_practices.md
+      - Software Development Lifecycle: methodology/sdlc.md
+      - Agile AI Practices: methodology/agile_practices.md
       - Governance & Compliance: methodology/governance.md
-      - Risks & Mitigation: methodology/risks.md
+      - Risk Management: methodology/risks.md
 
-  - Process:
+  - Development Process:
       - Process Overview: process/overview.md
-      - Planning: process/planning.md
-      - Design: process/design.md
-      - Implementation: process/implementation.md
-      - Testing: process/testing.md
-      - Deployment: process/deployment.md
-      - Maintenance: process/maintenance.md
+      - Planning Phase: process/planning.md
+      - Design Phase: process/design.md
+      - Implementation Phase: process/implementation.md
+      - Testing Phase: process/testing.md
+      - Deployment Phase: process/deployment.md
+      - Maintenance Phase: process/maintenance.md
 
 
   - Agents:
@@ -207,36 +209,48 @@ nav:
       - Security Agent: agents/security_agent.md
       - Test Agent: agents/test_agent.md
 
-  - Practices:
-      - Practices Overview: practices/overview.md
-      - Code Quality: practices/code_quality.md
-      - Scalability: practices/scalability.md
-      - Documentation: practices/documentation.md
-      - Security: practices/security.md
+  - Best Practices:
+      - Practices Overview: best-practices/overview.md
+      - Code Quality: best-practices/code.md
+      - Scalability: best-practices/scalability.md
+      - Documentation: best-practices/documentation.md
+      - Security: best-practices/security.md
 
-  - Guides:
-      - Guides Overview: guides/overview.md
+  - Implementation Guides:
+      - Implementation Overview: guides/overview.md
+      - Quickstart Playbook: guides/quickstart-playbook.md
+      - Productivity Boost: guides/productivity-boost.md
+      - Role-Based Development: guides/role-based-development.md
+      - Enterprise Governance: guides/enterprise-governance.md
+      - Risk Mitigation: guides/risk-mitigation.md
+      - Scalable Strategies: guides/scalable-strategies.md
+      - Roles Guides: guides/roles-guides.md
+      - Style Guides: guides/style-guides.md
   
-  - Tools: 
+  - Tools & Configuration: 
       - Tools Overview: tools/overview.md
+      - Agent Configuration: tools/agents.md
+      - Development Tools: tools/development.md
+      - Project Templates: tools/templates.md
+      - Configuration Management: tools/configuration.md
+      - Implementation Strategies: tools/strategies.md
+      - CLI & Automation: tools/cli-automation.md
+      - IDE Integrations: tools/ide-integrations.md
+      - CI/CD Tools: tools/cicd-tools.md
+      - Quality Assurance: tools/quality-assurance.md
+      - Monitoring & Analytics: tools/monitoring-analytics.md
+      - Deployment Tools: tools/deployment-tools.md
 
-  # - Articles:
-  #     - Articles Overview: articles/overview.md
-  #     - Boost Productivity: articles/boost_productivity.md
-  #     - Role-Based Guides: articles/role_based_guides.md
-  #     - Scalable Strategies: articles/scalable_strategies.md
-  #     - Quickstart Template: articles/quickstart_template.md
-  #     - Style Guides: articles/style_guides.md
-  #     - Templates: articles/templates.md
-  #     - Agent Config: articles/agent_config.md
+  - Roadmap:
+      - Technology Roadmap: roadmap/overview.md
 
   - Case Studies:
       - Case Studies Overview: case-studies/overview.md
-      - Enterprise Application Modernization: case-studies/enterprise-application-modernization.md
-      - Enterprise DevOps Transformation: case-studies/enterprise-devops-transformation.md
-      - Government System Integration: case-studies/government-system-integration.md
-      - Open Source Project Revitalization: case-studies/open-source-project-revitalization.md
-      - Startup Product Development: case-studies/startup-product-development.md
-      
-  # - Blog:
-  #     - Overview: blog/index.md
+      - Enterprise Application Modernization: case-studies/enterprise-modernization.md
+      - Enterprise DevOps Transformation: case-studies/enterprise-transformation.md
+      - Government System Integration: case-studies/government-integration.md
+      - Open Source Project Revitalization: case-studies/open-source-revitalization.md
+      - Startup Product Development: case-studies/startup-development.md
+
+  - Blog:
+      - Overview: blog/index.md
