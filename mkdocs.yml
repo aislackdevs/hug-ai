@@ -94,7 +94,7 @@ extra:
     deprecated: Deprecated
   analytics:
     provider: google
-    property: G-ZS9PLMC5TK
+    property: G-YSYKX1T2R7
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/aislackdevs
@@ -181,7 +181,6 @@ nav:
 
   - Agents:
       - Agents Overview: agents/overview.md
-      - Examples & Use Cases: agents/examples/index.md
       - Core Agents:
           - Prompt Refiner Agent: agents/prompt_refiner_agent.md
           - Requirements Analyzer Agent: agents/requirements_analyzer_agent.md
