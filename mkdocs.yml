@@ -31,7 +31,7 @@ theme:
   # - navigation.tabs.sticky        # 🔒 Tabs siempre visibles al hacer scroll (no necesario aún)
   - navigation.footer               # ✅ Enlaces prev/next al pie
   - navigation.tracking             # ✅ Actualiza URL según sección visible
-  - navigation.indexes              # ✅ index.md como portada de subcarpetas
+  # - navigation.indexes              # ✅ index.md como portada de subcarpetas
   # - navigation.expand             # 🔒 Expande todo el menú (innecesario por ahora)
   # - navigation.instant            # 🔒 Navegación instantánea sin recarga (incompatible con algunos scripts)
   # - navigation.instant.prefetch   # 🔒 Precarga páginas al hacer hover (más útil en sitios grandes)
@@ -75,12 +75,13 @@ theme:
 
 # Plugins
 plugins:
-  - blog
+  # - blog
   - search:
       separator: '[\s\u200b\-_,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
   - minify:
       minify_html: true
   - social
+  - tags
 
 # Hooks
 hooks:
@@ -159,87 +160,23 @@ not_in_nav: |
 # Page tree
 nav:
   - Home: index.md
-
   - Methodology:
-      - What is HUG AI: methodology/overview.md
-      - Manifesto: methodology/manifesto.md
-      - Methodology: methodology/methodology.md
-      - Software Development Lifecycle: methodology/sdlc.md
-      - Agile AI Practices: methodology/agile-practices.md
-      - Governance & Compliance: methodology/governance.md
-      - Risk Management: methodology/risks.md
-      - Development Flows: methodology/flows.md
+    - Introduction: methodology/introduction.md
+    - Core Principles: methodology/core-principles.md
+    - AI Development Lifecycle: methodology/ai-development-lifecycle.md
+    - Tooling & Infrastructure: methodology/tooling-and-infrastructure.md
+    - AI Design Patterns: methodology/ai-design-patterns.md
+    - Governance & Ethics: methodology/governance-ethics.md
+    - Best Practices & Pitfalls: methodology/best-practices-pitfalls.md
+    - Case Studies:
+      - Overview: methodology/case-studies/overview.md
+      - Enterprise Modernization: methodology/case-studies/enterprise-modernization.md
+      - Enterprise Transformation: methodology/case-studies/enterprise-transformation.md
+      - Government Integration: methodology/case-studies/government-integration.md
+      - Open Source Revitalization: methodology/case-studies/open-source-revitalization.md
+      - Startup Development: methodology/case-studies/startup-development.md
 
-  - Development Process:
-      - Process Overview: process/overview.md
-      - Planning Phase: process/planning.md
-      - Design Phase: process/design.md
-      - Implementation Phase: process/implementation.md
-      - Testing Phase: process/testing.md
-      - Deployment Phase: process/deployment.md
-      - Maintenance Phase: process/maintenance.md
 
-  - Agents:
-      - Agents Overview: agents/overview.md
-      - Core Agents:
-          - Prompt Refiner Agent: agents/prompt_refiner_agent.md
-          - Requirements Analyzer Agent: agents/requirements_analyzer_agent.md
-          - Router Agent: agents/router_agent.md
-          - Architecture Agent: agents/architecture_agent.md
-          - Implementation Agent: agents/implementation_agent.md
-          - Test Agent: agents/test_agent.md
-      - Quality & Security Agents:
-          - Internal Reviewer Agent: agents/internal_reviewer_agent.md
-          - Security Agent: agents/security_agent.md
-          - Performance Agent: agents/performance_agent.md
-          - Documentation Writer Agent: agents/documentation_writer_agent.md
-      - Operations Agents:
-          - Branch PR Manager Agent: agents/branch_pr_manager_agent.md
-          - Integration Agent: agents/integration_agent.md
-          - DevOps Agent: agents/devops_agent.md
-          - Deployment Agent: agents/deployment_agent.md
-          - Maintenance Agent: agents/maintenance_agent.md
-          - Retry Agent: agents/retry_agent.md
-
-  - Best Practices:
-      - Practices Overview: best-practices/overview.md
-      - Code Quality: best-practices/code.md
-      - Scalability: best-practices/scalability.md
-      - Documentation: best-practices/documentation.md
-      - Security: best-practices/security.md
-
-  - Implementation Guides:
-      - Implementation Overview: guides/overview.md
-      - Quickstart Playbook: guides/quickstart-playbook.md
-      - Productivity Boost: guides/productivity-boost.md
-      - Role-Based Development: guides/role-based-development.md
-      - Enterprise Governance: guides/enterprise-governance.md
-      - Risk Mitigation: guides/risk-mitigation.md
-      - Scalable Strategies: guides/scalable-strategies.md
-      - Roles Guides: guides/roles-guides.md
-      - Style Guides: guides/style-guides.md
   
-  - Tools & Configuration: 
-      - Tools Overview: tools/overview.md
-      - Agent Configuration: tools/agents.md
-      - Development Tools: tools/development.md
-      - Project Templates: tools/templates.md
-      - Configuration Management: tools/configuration.md
-      - Implementation Strategies: tools/strategies.md
-      - CLI & Automation: tools/cli-automation.md
-      - IDE Integrations: tools/ide-integrations.md
-      - CI/CD Tools: tools/cicd-tools.md
-      - Quality Assurance: tools/quality-assurance.md
-      - Monitoring & Analytics: tools/monitoring-analytics.md
-      - Deployment Tools: tools/deployment-tools.md
 
-  - Case Studies:
-      - Case Studies Overview: case-studies/overview.md
-      - Enterprise Application Modernization: case-studies/enterprise-modernization.md
-      - Enterprise DevOps Transformation: case-studies/enterprise-transformation.md
-      - Government System Integration: case-studies/government-integration.md
-      - Open Source Project Revitalization: case-studies/open-source-revitalization.md
-      - Startup Product Development: case-studies/startup-development.md
 
-  - Blog:
-      - Overview: blog/index.md
