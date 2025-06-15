@@ -175,6 +175,15 @@ nav:
       - Government Integration: methodology/case-studies/government-integration.md
       - Open Source Revitalization: methodology/case-studies/open-source-revitalization.md
       - Startup Development: methodology/case-studies/startup-development.md
+    - AI Development Lifecycle:
+      - Overview: ai-development-lifecycle/deep-dive.md
+      - Planning & Requirements: ai-development-lifecycle/planning-requirements.md
+      - Design & Architecture: ai-development-lifecycle/design-architecture.md
+      - Implementation: ai-development-lifecycle/implementation.md
+      - Testing & Quality Assurance: ai-development-lifecycle/testing-quality-assurance.md
+      - Deployment: ai-development-lifecycle/deployment.md
+      - Maintenance: ai-development-lifecycle/maintenance.md
+      - Governance & Monitoring: ai-development-lifecycle/governance-monitoring.md
 
 
   
